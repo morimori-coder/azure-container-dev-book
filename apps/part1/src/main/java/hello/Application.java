@@ -17,6 +17,7 @@ public class Application {
 	@RequestMapping("/hey")
 	public String hey(){
 		var msg	= "Hey yo";
+		// dummyコメント
 		return msg;
 	}
 
